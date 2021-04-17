@@ -1,6 +1,6 @@
 [package]
 name = "paddle-sys"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["LI Rui <lr_cn@outlook.com>"]
 edition = "2018"
 license = "MIT/Apache-2.0"
@@ -21,4 +21,4 @@ exclude = [
 ]
 
 [dependencies]
-libloading = "0.6.6"
+libloading = "0.7.0"

@@ -1,6 +1,6 @@
 # paddle-sys
 
-[![PaddlePaddle version](https://img.shields.io/badge/PaddlePaddle-2.0.0--rc1-blue)](https://github.com/PaddlePaddle/Paddle)
+[![PaddlePaddle version](https://img.shields.io/badge/PaddlePaddle-release%2F2.0-blue)](https://github.com/PaddlePaddle/Paddle)
 
 Rust bindings for the Paddle Inference, the core inference engine for [PaddlePaddle].
 
