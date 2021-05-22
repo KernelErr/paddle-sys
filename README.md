@@ -1,6 +1,6 @@
 # paddle-sys
 
-[![PaddlePaddle version](https://img.shields.io/badge/PaddlePaddle-release%2F2.0-blue)](https://github.com/PaddlePaddle/Paddle)
+[![PaddlePaddle version](https://img.shields.io/badge/PaddlePaddle-release%2F2.1-blue)](https://github.com/PaddlePaddle/Paddle)
 
 Rust bindings for the Paddle Inference, the core inference engine for [PaddlePaddle].
 
@@ -8,7 +8,7 @@ This library is intended to provide a low-level wrapper for functions, datatypes
 
 ## Bindings
 
-We use the [bindgen] tool to generate wrappers over the Paddle Inference C language header file and the [libloading] tool to load the pre-compiled library. So before you run your application, please ensure you have a pre-compiled library with the correct version and set the environment variables to let the linker could find it. An example of Linux is shown below.
+We use the [bindgen] tool to generate wrappers over the Paddle Inference C language header file and the [libloading] tool to load the pre-compiled library. So before you run your application, please ensure you have a pre-compiled library with the correct version (libpaddle_inference_c.so) and set the environment variables to let the linker could find it. An example of Linux is shown below.
 
 ```
 export LD_LIBRARY_PATH=/path/to/paddle_lib:$LD_LIBRARY_PATH
